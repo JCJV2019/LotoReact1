@@ -1,0 +1,40 @@
+h1, #contenedor {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #9b0e0e;
+}
+
+.serie {
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: #362929;
+}
+.serie:hover{
+  color: #9b0e0e;
+  background-color: #362929;
+  text-decoration: none;
+}
+
+img {
+  width: 10em;
+  height: 8em;
+}
+
+#contenedor {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.serie2 {
+  list-style: none;
+}
+
+fieldset {
+  width: fit-content;
+  border: none;
+  background-color: rgb(92, 81, 31);
+}
